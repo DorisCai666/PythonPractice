@@ -1,4 +1,3 @@
-
 # Assign String to a Variable
 x = "Hey, Doris"
 print(x)
