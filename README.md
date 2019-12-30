@@ -1,2 +1,2 @@
 # PythonPractice
-Studay Python with Doris
+Study Python with Doris
