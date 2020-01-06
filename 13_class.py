@@ -35,3 +35,31 @@ MyCar.mycolor()
 # you can set a value for a property
 MyCar.color = "Black"
 print(MyCar.color)
+
+
+# Inheritance
+
+# Create a Parent Class
+class Fruit:
+    def __init__(self, name):
+        self.name = name
+
+    def printName(self):
+        print("Fruit name is " + self.name)
+
+# Create a Child Class
+class Apple(Fruit):
+    pass
+
+A = Apple("Red Apple")
+A.printName()
+
+# Python also has a super() function that will make the child class inherit all the methods and properties from its parent
+class Orange(Fruit):
+    def __init__(self, name, shape):
+        super().__init__(self, name)
+        self.shape = shape
+
+
+
+
